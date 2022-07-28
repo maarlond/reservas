@@ -1,0 +1,154 @@
+ .error {
+    color: red;
+    border-color: red;    
+}
+
+.ok p {
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.required:after {
+    color: red;
+}
+
+.h6,
+h6 {
+    font-size: 0.81rem;
+    color: #343d5c;
+}
+
+
+.form-row>.col,
+.form-row>[class*="col-"] {
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-bottom: 2px;
+}
+
+#solicReserva h3 {
+    font-weight: bold;
+    color: #333;
+    font-size: 23px;
+    text-align: center;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+    font-size: 12.5px;
+    margin-left: 5px;
+    margin-right: 7px;
+}
+
+#solicReserva fieldset label {
+    font-weight: bold;
+
+}
+
+#solicReserva fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 90%;
+    margin: 0% 5%;
+}
+
+#solicReserva fieldset:not(:first-of-type) {
+    display: none;
+}
+
+#solicReserva .acao {
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    /*padding: 11px 0;*/
+    float: right;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+
+#solicReserva .acao:hover {
+    background: #343d5c;
+    cursor: pointer;
+}
+
+#solicReserva #progress {
+    overflow: hidden;
+    counter-reset: step;
+}
+
+#solicReserva #progress li {
+    list-style-type: none;
+    font-weight: bold;
+    width: 80px;
+    font-size: 20px;
+    float: left;
+    margin-left: 2%;
+    width: 45%;
+    position: relative;
+    text-align: center;
+}
+
+#solicReserva #progress li:before {
+    /*content: counter(step);
+    counter-increment: step;
+    /*counter-increment: step;*/
+    width: 40px;
+    height: 40px;
+    color: white;
+    display: block;
+    line-height: 35px;
+    background-color: rgb(70, 68, 68);
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 40px;
+    margin: 0 auto 10px auto;
+}
+
+#solicReserva #progress li::after {
+    content: "";
+    width: 105%;
+    background: rgb(255, 255, 255);
+    height: 6px;
+    position: absolute;
+    top: 17px;
+    left: -55%;
+    z-index: -1;
+}
+
+#solicReserva #progress li:first-child::after {
+    content: none;
+}
+
+#solicReserva #progress li.ativo::before,
+#solicReserva #progress li.ativo::after {
+    background-image: linear-gradient(to right,
+            rgba(23, 181, 149, 0.7),
+            rgba(82, 201, 207));
+    color: white;
+    text-shadow: 0 1px 0;
+}
+
+#leis #formleis {
+    display: none;
+}
+
+#leis #formleis.mostrar {
+    display: block;
+    margin: 20px;
+}
+
+#leis .checkboxleis.fechar {
+    display: none;
+}

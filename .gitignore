@@ -1,0 +1,8 @@
+#git update-index --assume-unchanged dist/conexaoDB.php
+#git update-index --no-assume-unchanged dist/conexaoDB.php
+#ignora arquivo de conexao com banco
+dist/conexaoDB.php
+#ignora diretorios e arquivos dentro do uploads
+dist/uploads/Espacos/**
+dist/uploads/Reservas/**
+vendor/**

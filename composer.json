@@ -1,0 +1,21 @@
+{
+    "name": "seplag-dinfo/reservas",
+    "description": "Reservas",
+    "homepage": "https://gitlab.com/seplag-dinfo/reservas",
+    "authors": [
+        {
+            "name": "Diego Santos",
+            "email": "diego-santos@planejamento.rs.gov.br"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "/dist/conexaoDB.php"
+        ]
+    },
+    "require": {
+        "php": "^7",
+        "phpmailer/phpmailer": "~6.1",
+        "coffecode/uploader": "1.0.*"
+    }
+}
